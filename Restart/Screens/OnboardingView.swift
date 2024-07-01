@@ -32,7 +32,7 @@ struct OnboardingView: View {
             .fontWeight(.heavy)
             .foregroundColor(.white)
           
-          Text("It's not how much we give but how much love we put into giving")
+          Text("It's not how much we give but how much love we put into giving . ..")
             .font(.title3)
             .fontWeight(.light)
             .foregroundColor(.white)
