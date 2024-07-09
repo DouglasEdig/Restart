@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -30,6 +30,20 @@
 		915219342C2900FA002BE09E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		91A07F712C2FA628009E9DEF /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		910BA0A62C3CEDE100280127 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AudioPlayer.swift,
+			);
+			target = 915219142C27C6BA002BE09E /* Restart */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		910BA0A22C3CED4400280127 /* Utilities */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (910BA0A62C3CEDE100280127 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Utilities; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		915219122C27C6BA002BE09E /* Frameworks */ = {
@@ -61,10 +75,10 @@
 		915219172C27C6BA002BE09E /* Restart */ = {
 			isa = PBXGroup;
 			children = (
-				915219312C28FEE5002BE09E /* Utilities */,
-				915219302C28FECF002BE09E /* Views */,
-				9152192A2C28FD14002BE09E /* Sounds */,
 				915219182C27C6BA002BE09E /* RestartApp.swift */,
+				915219302C28FECF002BE09E /* Views */,
+				910BA0A22C3CED4400280127 /* Utilities */,
+				9152192A2C28FD14002BE09E /* Sounds */,
 				9152192F2C28FEB3002BE09E /* Screens */,
 				9152191C2C27C6BB002BE09E /* Assets.xcassets */,
 				9152191E2C27C6BB002BE09E /* Preview Content */,
@@ -105,13 +119,6 @@
 				91A07F712C2FA628009E9DEF /* CircleGroupView.swift */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		915219312C28FEE5002BE09E /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
